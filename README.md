@@ -29,11 +29,11 @@ Webhook Handler receives incoming events from ISV and pushes them to a GCP topic
 
 **Build the Docker Image**
 
-docker build . -t arvindkasale08/webhook-handler
+`docker build . -t arvindkasale08/webhook-handler`
 
 **Push the Docker Image**
 
-docker push arvindkasale08/webhook-handler
+`docker push arvindkasale08/webhook-handler`
 
 **Deploy the Service**
 
