@@ -9,3 +9,10 @@ spec:
         spec:
           container:
             image: docker.io/arvindkasale08/webhook-handler
+            env:
+              - name: SPRING_CLOUD_GCP_PROJECT-ID
+                value: arv-project-233314
+              - name: SPRING.CLOUD.GCP.TOPIC
+                value: raw_event
+              - name: SPRING.CLOUD.GCP.SUBSCRIPTION
+                value: webhook-handler-subscription
